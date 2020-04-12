@@ -71,7 +71,7 @@ export const asyncRoutes = [{
         meta: {
             title: 'Permission',
             icon: 'lock',
-            roles: ['admin', 'editor']
+            roles: ['admin', 'editor', 'student']
         },
         children: [{
                 path: 'page',

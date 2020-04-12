@@ -301,7 +301,6 @@ export const asyncRoutes = [
             name: 'personalSet',
             meta: {
                 roles: ['editor', 'student'],
-
                 title: '个人设置',
                 icon: 'user'
             }
@@ -350,7 +349,6 @@ export const asyncRoutes = [
             name: 'infor',
             meta: {
                 roles: ['student'],
-
                 title: '我的消息',
                 icon: 'list'
             }
